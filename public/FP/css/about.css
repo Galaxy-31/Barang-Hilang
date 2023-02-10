@@ -1,0 +1,129 @@
+/* ----------------- Start About Area ---------------- */
+
+@import url('../css/fonts.css');
+
+
+html,
+body {
+  margin: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "open sans", sans-serif;
+}
+
+.about-section {
+  width: 100%;
+  background: #ffffff;
+  padding: 60px 0;
+}
+
+.inner-width {
+  max-width: 1000px;
+  overflow: hidden;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.about-section h1 {
+  text-align: center;
+}
+
+.border {
+  width: 100px;
+  height: 3px;
+  background: rgb(196, 196, 196);
+  margin: 40px auto;
+}
+
+.about-section-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-section-col {
+  flex: 50%;
+}
+
+.about {
+  padding-right: 50px;
+}
+
+.about p {
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.about a:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(79, 214, 255);
+}
+
+.content {
+  float: left;
+  font-size: 15px;
+  line-height: 40px;
+  margin-top: -10px;
+  position: relative;
+  width: 500px;
+}
+
+.col {
+  width: 500px;
+}
+
+.col h2 {
+  display: block;
+  padding-bottom: 50px;
+  font-size: 30px;
+}
+
+.about img {
+  box-shadow: 0 0 0 5px white, 0 0 0 10px #34495E;
+  border: 2px solid #34495E;
+  position: static;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+#skill {
+  list-style: none;
+}
+
+#skill li {
+  background: rgb(255, 255, 255);
+  height: 10px;
+  margin-bottom: 70px;
+  border-radius: 5px;
+  border: 1px solid #666;
+}
+
+#skill li em {
+  position: relative;
+  top: -35px;
+}
+
+.expand {
+  height: 6px;
+  background-color: rgb(79, 214, 255);
+  margin: 3px 0;
+  position: absolute;
+  animation: progress 3s linear;
+  border-radius: 5px;
+}
+
+@keyframes progress {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 80%
+  }
+}
+
+/* --------------- Finish About Area ----------*/
